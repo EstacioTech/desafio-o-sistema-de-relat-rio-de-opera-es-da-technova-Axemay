@@ -1,26 +1,29 @@
-## Introdução à Programação de Computadores
+## Desafio: O Sistema de Relatório de Operações da TechNova
+## Cenário: 
+A TechNova, uma líder em inovação tecnológica, identificou uma oportunidade de aprimorar seus processos internos com a implementação de uma ferramenta automatizada que executa simultaneamente as quatro operações matemáticas básicas. Esta necessidade surgiu a partir de uma demanda por eficiência na análise de dados financeiros e operacionais, onde múltiplos cálculos precisam ser realizados rapidamente e reportados de forma integrada.
 
-Bem-vindos ao repositório GitHub da disciplina de Introdução à Programação de Computadores! O GitHub é uma plataforma de hospedagem de código-fonte que utiliza o Git, um sistema de controle de versão distribuído, para gerenciar a colaboração de projetos de software. Nesta disciplina, utilizaremos o GitHub como uma ferramenta essencial por vários motivos que enriquecem o processo de aprendizado e desenvolvimento em programação. Aqui estão os principais objetivos do uso do GitHub neste curso:
+## O Desafio: 
+Os desenvolvedores juniores da TechNova foram desafiados a criar um sistema que, ao receber dois números, automaticamente calcule e exiba os resultados de soma, subtração, multiplicação e divisão desses números. Este sistema não só deve facilitar a tomada de decisão com base em cálculos rápidos e precisos, mas também servirá como uma ferramenta de treinamento em desenvolvimento de software.
 
-## 1. Versionamento de Código
-O GitHub permite controlar e armazenar várias versões de um projeto, facilitando o gerenciamento de mudanças. Cada aluno pode manter um histórico claro de suas modificações, entender melhor a evolução de seus programas e recuperar versões anteriores se necessário.
+## Requisitos Funcionais:
+### 1.	Entrada de Dados:
+•	O sistema deve ser operado inteiramente via terminal ou prompt de comando.
+•	O sistema deve permitir ao usuário inserir dois números de forma interativa através da interface baseada em texto (CLI).
+•	Deve haver uma solicitação clara na interface para cada entrada, especificando se é o primeiro ou o segundo número.
+### 2.	Processamento de Operações Matemáticas:
+•	O sistema deve automaticamente realizar as seguintes operações matemáticas com os números inseridos: soma, subtração, multiplicação e divisão.
+### 3.	Saída de Dados:
+•	Após o processamento, o sistema deve exibir os resultados de cada operação de forma clara e legível.
+•	Cada operação deve ter seu resultado apresentado em uma linha separada com a operação identificada.
 
-## 2. Colaboração
-A programação muitas vezes envolve trabalho em equipe. O GitHub proporciona um ambiente colaborativo onde os alunos podem trabalhar em grupos, compartilhar seus projetos e modificar o código de maneira controlada. Isso prepara os estudantes para o cenário real de desenvolvimento de software, onde a colaboração é chave.
-
-## 3. Revisão de Código
-Através das funcionalidades de pull requests e issues, os alunos podem solicitar que seus projetos sejam revisados por colegas ou instrutores, receber feedback específico e discutir melhorias potenciais. Este processo não apenas melhora a qualidade do código, mas também ajuda na aprendizagem e compreensão de conceitos de programação através de exemplos práticos.
-
-## 4. Transparência e Compartilhamento
-O GitHub funciona como um portfólio online, permitindo que os alunos mostrem seu trabalho para o mundo. Isso é especialmente valioso para futuras oportunidades de emprego ou estudos adicionais, onde a demonstração de trabalhos anteriores pode ser crucial.
-
-## 5. Acesso Universal
-Os alunos podem acessar seus projetos de qualquer lugar e continuar trabalhando sem a necessidade de transportar fisicamente seus arquivos ou trabalhar em um único computador. Isso é especialmente útil para o aprendizado remoto e para estudantes que utilizam múltiplos dispositivos.
-
-## 6. Integração com Ferramentas e Serviços
-O GitHub integra-se a uma variedade de ferramentas de desenvolvimento e serviços, facilitando a implementação de funcionalidades complexas, testes automatizados e integração contínua. Isso expõe os alunos a práticas e ferramentas utilizadas profissionalmente no desenvolvimento de software.
-
-## 7. Documentação
-Através do uso de arquivos README, wikis e outros documentos dentro do repositório, os alunos podem criar uma documentação robusta para seus projetos, o que é uma habilidade crucial para qualquer desenvolvedor. Aprender a documentar efetivamente um projeto é tão importante quanto saber codificar.
-
-Este repositório é um espaço vivo de aprendizado e troca. Encorajamos todos os alunos a se engajarem, explorarem e utilizarem ao máximo as possibilidades que o GitHub oferece. Com o uso desta ferramenta, esperamos não apenas facilitar a gestão e revisão de projetos, mas também enriquecer a experiência educativa de cada aluno na arte e ciência da programação.
+Requisitos Não Funcionais:
+### 1.	Usabilidade:
+•	A interface de usuário CLI deve ser simples e fácil de usar, mesmo para pessoas que não têm familiaridade com linhas de comando.
+•	As instruções para inserção de dados e opções disponíveis devem ser claramente visíveis e compreensíveis.
+### 2.	Performance:
+•	O sistema deve executar os cálculos e apresentar os resultados sem atrasos perceptíveis (tempo de resposta inferior a 2 segundos após a entrada do usuário).
+### 3.	Documentação:
+•	O código deve ser bem documentado, incluindo comentários detalhados sobre a função de cada parte do código e instruções de uso do sistema.
+•	A documentação deve ser suficiente para que um novo desenvolvedor possa entender o funcionamento do sistema sem necessidade de consulta externa.
+### 4.	Manutenabilidade:
+•	O código deve ser escrito de forma clara, empregando nomes de variáveis que permitam o fácil entendimento por um novo desenvolvedor.
